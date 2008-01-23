@@ -1,0 +1,7 @@
+ORIG_PN="clamavr"
+
+inherit ruby
+
+DESCRIPTION="Ruby ClamAV bindings"
+HOMEPAGE="http://raa.ruby-lang.org/project/clamavr/"
+SRC_URI="http://www.moonwolf.com/ruby/archive/${ORIG_PN}-${PV}.tar.gz"

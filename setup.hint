@@ -1,0 +1,4 @@
+category: Ruby
+requires: cygwin libclamav2 ruby
+sdesc: "Ruby ClamAV bindings"
+ldesc: "Ruby bindings for Clam AntiVirus"

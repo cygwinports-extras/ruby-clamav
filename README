@@ -1,0 +1,57 @@
+ruby-clamav
+-------------------------------------------
+Ruby bindings for Clam AntiVirus.
+
+Runtime requirements:
+  cygwin-1.5.25-7
+  libclamav2-0.91.2-1
+  ruby-1.8.6-1
+
+Build requirements:
+(besides corresponding devel packages)
+  cygwin-1.5.25-7
+  binutils-20060817-1
+  cygport-0.3.7-1
+  gcc-core-3.4.4-3
+  make-3.81-1
+
+Canonical homepage:
+  http://raa.ruby-lang.org/project/clamavr/
+
+Canonical download:
+  http://www.moonwolf.com/ruby/archive/
+
+-------------------------------------------
+
+Build instructions:
+  unpack ruby-clamav-0.2.0-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./ruby-clamav-0.2.0-X.cygport all
+
+This will create:
+  /usr/src/ruby-clamav-0.2.0-X-src.tar.bz2
+  /usr/src/ruby-clamav-0.2.0-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /usr/lib/ruby/site_ruby/1.8/i386-cygwin/clamav.so
+  /usr/share/doc/Cygwin/ruby-clamav-0.2.0.README
+  /usr/share/doc/ruby-clamav-0.2.0/README
+
+------------------
+
+Port Notes:
+
+----- version 0.2.0-1 -----
+Version bump.
+
+----- version 0.1.0-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/
